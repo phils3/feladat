@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aquamarine;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    padding: 25px;
+}
+.user_container{
+    background-color: bisque;
+    width: 63vh;
+    border-radius: 12px;
+    padding: 12px;
+}
+.user{
+    height: 80px;
+    display: flex;
+    width: 500px;
+    background-color: aqua;
+   
+    
+   
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+    padding: 8px;
+    
+    margin-top: 15px;
+}
+.user:hover{
+    cursor: pointer;
+}
+.user:active{
+    background-color: blueviolet;
+}
+.user img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+#nev{
+    font-size: 30px;
+}
+#torles_gomb{
+    margin-right: 25px;
+    margin-left: auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    
+    background-color: rgb(248, 116, 116);
+}
+#torles_gomb:hover{
+    cursor: pointer;
+    background-color: rgb(218, 153, 153);
+}
+
+.taskok{
+    background-color: chocolate;
+    width: 65vh;
+    margin-left: 100px;
+    border-radius: 12px;
+    padding: 12px;
+}
+.feladat_cim, .user_container{
+    font-size: 25px;
+    text-align: center;
+}
+
+.kartya{
+    background-color: rgb(119, 119, 205);
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
